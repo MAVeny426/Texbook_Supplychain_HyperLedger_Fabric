@@ -67,3 +67,18 @@ minifab invoke -n CHF_PROJECT -p '"DeleteTextbook","book001"'
 ```
 minifab invoke -n CHF_PROJECT -p '"UpdateTextbook","book001","Advanced Blockchain","Daniel Drescher","2019","55"'
 ```
+
+### To stop network and restart it later
+
+```
+minifab down
+```
+```
+minifab restart
+```
+
+### To cleanup entire network
+
+```
+minifab cleanup
+```
