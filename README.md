@@ -34,7 +34,8 @@ type Textbook struct {
   Year   string `json:"year"`
   Price  string `json:"price"`
 }
+```
 
-### Start network using script file
+###  Start network using script file
 
 `./startNetwork.sh`
