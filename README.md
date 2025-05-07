@@ -61,3 +61,9 @@ minifab invoke -n CHF_PROJECT -p '"CreateTextbook","book001","Blockchain Basics"
 minifab query -n CHF_PROJECT -p '"ReadTextbook","book001"'
 
 ```
+```
+minifab invoke -n CHF_PROJECT -p '"DeleteTextbook","book001"'
+```
+```
+minifab invoke -n CHF_PROJECT -p '"UpdateTextbook","book001","Advanced Blockchain","Daniel Drescher","2019","55"'
+```
