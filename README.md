@@ -55,9 +55,9 @@ cp -r ../Chaincode/* vars/chaincode/CHF_PROJECT/go/
 minifab ccup -n CHF_PROJECT -l go -v 1.0 -d false -r false
 ```
 ```
-minifab invoke -n CHF_PROJECT -p '"CreateCar","car01","BMW","320d","Red","F-01","01/01/2024"'
+minifab invoke -n CHF_PROJECT -p '"CreateTextbook","book001","Blockchain Basics","Daniel Drescher","2017","45"'
 ```
 ```
-minifab query -n CHF_PROJECT -p '"ReadCar","car01"'
+minifab query -n CHF_PROJECT -p '"ReadTextbook","book001"'
 
 ```
