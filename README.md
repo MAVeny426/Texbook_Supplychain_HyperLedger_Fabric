@@ -38,4 +38,6 @@ type Textbook struct {
 
 ###  Start network using script file
 
-`./startNetwork.sh`
+```
+./startNetwork.sh
+```
