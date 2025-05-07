@@ -35,9 +35,29 @@ type Textbook struct {
   Price  string `json:"price"`
 }
 ```
-
 ###  Start network using script file
 
 ```
 ./startNetwork.sh
+```
+### Minifab commands to deploy and invoke chaincode
+
+```
+sudo chmod -R 777 vars/
+```
+```
+sudo chmod -R 777 vars/
+```
+```
+cp -r ../Chaincode/* vars/chaincode/CHF_PROJECT/go/
+```
+```
+minifab ccup -n CHF_PROJECT -l go -v 1.0 -d false -r false
+```
+```
+minifab invoke -n CHF_PROJECT -p '"CreateCar","car01","BMW","320d","Red","F-01","01/01/2024"'
+```
+```
+minifab query -n CHF_PROJECT -p '"ReadCar","car01"'
+
 ```
